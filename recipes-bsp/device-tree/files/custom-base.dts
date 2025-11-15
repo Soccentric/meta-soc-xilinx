@@ -1,0 +1,8 @@
+/* Custom base device tree for Xilinx Zynq UltraScale+ */
+/dts-v1/;
+
+/ {
+    compatible = "custom,zynq";
+    
+    /* Add your device tree nodes here */
+};

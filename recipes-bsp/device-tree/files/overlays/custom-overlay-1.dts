@@ -1,0 +1,12 @@
+/* Custom overlay example for Xilinx Zynq UltraScale+ */
+/dts-v1/;
+/plugin/;
+
+/ {
+    fragment@0 {
+        target-path = "/";
+        __overlay__ {
+            /* Add your overlay nodes here */
+        };
+    };
+};
