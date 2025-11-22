@@ -36,7 +36,7 @@ addtask deploy before do_build after do_install
 
 FILES:${PN} += "${datadir}/xsa/*"
 
-COMPATIBLE_MACHINE = "zynqmp-generic"
+COMPATIBLE_MACHINE = "zynqmp-generic-custom"
 
 # Notes for usage:
 # 1. Place your XSA file in recipes-bsp/xsa/files/system.xsa

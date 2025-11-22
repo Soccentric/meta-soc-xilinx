@@ -30,4 +30,4 @@ do_configure:prepend() {
     fi
 }
 
-COMPATIBLE_MACHINE = "zynqmp-generic"
+COMPATIBLE_MACHINE = "zynqmp-generic-custom"

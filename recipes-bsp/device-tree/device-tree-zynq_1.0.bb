@@ -66,4 +66,4 @@ do_install() {
 
 FILES:${PN} += "/boot/devicetree/*"
 
-COMPATIBLE_MACHINE = "zynqmp-generic"
+COMPATIBLE_MACHINE = "zynqmp-generic-custom"

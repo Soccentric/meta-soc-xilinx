@@ -68,7 +68,7 @@ addtask deploy before do_build after do_install
 
 FILES:${PN} += "${base_libdir}/firmware/*"
 
-COMPATIBLE_MACHINE = "zynqmp-generic"
+COMPATIBLE_MACHINE = "zynqmp-generic-custom"
 
 # Usage notes:
 # 1. For pre-built: Set RPU_BUILD_MODE = "prebuilt" and place firmware.elf in files/
